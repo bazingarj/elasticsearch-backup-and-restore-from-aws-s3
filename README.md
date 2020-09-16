@@ -13,8 +13,9 @@ S3_BUCKET_NAME = ''
 
 S3_BUCKET_REGION = ''
 
-# set True to delete repo from elasticsearch after backup and restore operations, Also it can be used to create multiple backup of same index in sepaarte folders
 DELETE_REPO_AFTER_SNAPSHOT = False 
+
+Note: set True to delete repo from elasticsearch after backup and restore operations, Also it can be used to create multiple backup of same index in sepaarte folders
 
 STEP 3 : Make Backup
 
@@ -29,5 +30,4 @@ STEP 4 : Restore Backup
 OR 
 ``` python3 restore.py posts 'staging/year/month/' ```
 
-
-Note: DELETE_REPO_AFTER_SNAPSHOT allows to keep same name backup in separate folder
+Note: DELETE_REPO_AFTER_SNAPSHOT allows to keep same name backup in different folder
