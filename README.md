@@ -10,6 +10,7 @@ STEP 2: Define ES_HOST, S3_BUCKET_NAME, S3_BUCKET_REGION in config.py
 ES_HOST = ['127.0.0.1:9200']
 
 S3_BUCKET_NAME = ''
+
 S3_BUCKET_REGION = ''
 
 # set True to delete repo from elasticsearch after backup and restore operations, Also it can be used to create multiple backup of same index in sepaarte folders
