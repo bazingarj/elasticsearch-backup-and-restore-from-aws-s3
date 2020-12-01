@@ -1,5 +1,5 @@
 # elasticsearch-backup-and-restore-from-aws-s3
-
+NOTE: Note role on ec2 with s3 access, or aws credentials setup beforehand.
 
 STEP 1: install requirements from requirements.txt
 
@@ -15,7 +15,7 @@ S3_BUCKET_REGION = ''
 
 DELETE_REPO_AFTER_SNAPSHOT = False 
 
-Note: set True to delete repo from elasticsearch after backup and restore operations, Also it can be used to create multiple backup of same index in sepaarte folders
+Note: set True to delete repo from elasticsearch after backup and restore operations, Also it can be used to create multiple backup of same index in separate folders
 
 STEP 3 : Make Backup
 
